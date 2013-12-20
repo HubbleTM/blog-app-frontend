@@ -1,0 +1,54 @@
+/* ADD styling for all of the divs in post.html to match  */
+
+.main-container {
+    padding-top: 60px;
+    display: flex;
+}
+
+#individual-post-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+#individual-post-date {
+    color: #888888;
+    border-top: 1px solid #f1f4f8;
+    border-bottom: 1px solid #f1f4f8;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+}
+
+#individual-post-content {
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 1.4;
+}
+
+.navigation a {
+    color: #004186;
+    text-decoration: none;
+    font-weight: 400;
+    border: 2px solid #004186;
+    border-radius: 4px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
+
+.navigation a:hover {
+    color: white;
+    background-color: #004186;
+    text-decoration: none;
+    font-weight: 400;
+    border: 2px solid #004186;
+    border-radius: 4px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease;
+}
